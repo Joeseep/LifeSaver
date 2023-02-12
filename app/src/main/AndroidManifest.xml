@@ -12,9 +12,6 @@
         android:theme="@style/Theme.LifeSaver"
         tools:targetApi="31">
         <activity
-            android:name=".Login"
-            android:exported="false" />
-        <activity
             android:name=".Signup"
             android:exported="false" />
         <activity

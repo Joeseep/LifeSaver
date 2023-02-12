@@ -9,8 +9,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -33,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Login();
+
             }
         });
     }
@@ -41,10 +39,5 @@ public class MainActivity extends AppCompatActivity {
     public void Signup(){
         Intent opensignup = new Intent(this, Signup.class);
         startActivity(opensignup);
-    }
-
-    public void Login(){
-        Intent openlogin = new Intent(this, Login.class);
-        startActivity(openlogin);
     }
 }
